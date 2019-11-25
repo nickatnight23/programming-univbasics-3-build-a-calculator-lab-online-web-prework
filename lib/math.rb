@@ -47,6 +47,14 @@ describe "#multiplication" do
   end
 end
 
+describe "#modulo" do
+  it "returns the remainder of two numbers" do
+    expect(modulo(34, 5)).to eq(4)
+  end
+end
+
+
+
 
 
 
