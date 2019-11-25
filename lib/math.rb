@@ -28,3 +28,10 @@ describe "#addition" do
     expect(addition(3,4)).to eq(7)
   end
 end
+
+describe "#subtraction" do
+  it "subtracts two numbers from each other" do
+    expect(subtraction(9,5)).to eq(4)
+  end
+end
+
