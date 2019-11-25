@@ -53,6 +53,11 @@ describe "#modulo" do
   end
 end
 
+describe "#square_root" do
+  it "returns the square root of a number" do
+    expect(square_root(64)).to eq(8)
+  end
+end
 
 
 
