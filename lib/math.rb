@@ -41,5 +41,13 @@ describe "#division" do
   end
 end
 
+describe "#multiplication" do
+  it "multiplies two numbers together" do
+    expect(multiplication(8,8)).to eq(64)
+  end
+end
+
+
+
 
 
