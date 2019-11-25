@@ -23,3 +23,8 @@ d#ef division(num1, num2)
 #end
 
 
+describe "#addition" do 
+  it "adds two numbers together" do
+    expect(addition(3,4)).to eq(7)
+  end
+end
